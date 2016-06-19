@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void hitung(Double panjang, Double lebar) {
         Double luas = panjang * lebar;
-        tv_hasil.setText("" + luas);
+        tv_hasil.setText(String.valueOf(luas));
     }
 }
